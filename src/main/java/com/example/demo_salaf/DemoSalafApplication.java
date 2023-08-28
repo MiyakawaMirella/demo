@@ -10,4 +10,10 @@ public class DemoSalafApplication {
 		SpringApplication.run(DemoSalafApplication.class, args);
 	}
 
+	@GetMapping("/hello")
+	public String hello(){
+		return "Germinare Tech - Nikinho";
+	}
+
+	
 }
